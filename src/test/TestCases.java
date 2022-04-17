@@ -51,7 +51,7 @@ public class TestCases {
 		
 	//Register By Email Page for 1st Account
 		//Inserting Email
-		authenticationObj.insertEmail("bup100@xyz.com");
+		authenticationObj.insertEmail("sqa123@abc.com");
 		
 		//Clicking Create Account Button
 		authenticationObj.clickCreateAccountButton();
@@ -71,44 +71,44 @@ public class TestCases {
 		personalInfoObj.clickMaleGender();
 		
 		//First Name
-		personalInfoObj.insertFirstName("Abul");
+		personalInfoObj.insertFirstName("Zaik");
 		
 		//Last Name
-		personalInfoObj.insertLastName("Kashem");
+		personalInfoObj.insertLastName("Mostafa");
 		
 		//Password
 		personalInfoObj.insertPassword("12345");
 		
 		//Date of Birth
 		//Day
-		personalInfoObj.insertDay("12");
+		personalInfoObj.insertDay("18");
 
 		//Month
-		personalInfoObj.insertMonth("2");
+		personalInfoObj.insertMonth("3");
 		
 		//Year
-		personalInfoObj.insertYear("1990");
+		personalInfoObj.insertYear("1995");
 		
 		//Company
-		personalInfoObj.insertCompany("ABC Ltd.");
+		personalInfoObj.insertCompany("SCT Ltd.");
 		
 		//Address
-		personalInfoObj.insertAddress("12-B, North Street Road");
+		personalInfoObj.insertAddress("20-A, Bangla Bazar Road");
 		
 		//City
-		personalInfoObj.insertCity("Las Vegas");
+		personalInfoObj.insertCity("North Dhaka");
 		
 		//State
-		personalInfoObj.insertState("New York");
+		personalInfoObj.insertState("Dhaka");
 		
 		//Postal Code
-		personalInfoObj.insertPostalCode("31250");
+		personalInfoObj.insertPostalCode("43256");
 		
 		//Country
-		personalInfoObj.insertCountry("United States");
+		personalInfoObj.insertCountry("Bangladesh");
 		
 		//Mobile No.
-		personalInfoObj.insertMobile("01223344");
+		personalInfoObj.insertMobile("01346735");
 		
 		//Clicking Register Button
 		personalInfoObj.clickRegister();
@@ -122,7 +122,7 @@ public class TestCases {
 	//Register By Email Page for 2nd Account
 		
 		//Inserting Email
-		authenticationObj.insertEmail("bup900@xyz.com");
+		authenticationObj.insertEmail("sqa456@abc.com");
 		
 		//Clicking Create Account Button
 		authenticationObj.clickCreateAccountButton();
@@ -142,44 +142,44 @@ public class TestCases {
 		personalInfoObj.clickFemaleGender();
 		
 		//First Name
-		personalInfoObj.insertFirstName("Kulsum");
+		personalInfoObj.insertFirstName("Afroza");
 		
 		//Last Name
-		personalInfoObj.insertLastName("Akter");
+		personalInfoObj.insertLastName("Khanom");
 		
 		//Password
 		personalInfoObj.insertPassword("54321");
 		
 		//Date of Birth
 		//Day
-		personalInfoObj.insertDay("15");
+		personalInfoObj.insertDay("17");
 
 		//Month
-		personalInfoObj.insertMonth("7");
+		personalInfoObj.insertMonth("4");
 		
 		//Year
-		personalInfoObj.insertYear("1980");
+		personalInfoObj.insertYear("1990");
 		
 		//Company
-		personalInfoObj.insertCompany("XYZ Ltd.");
+		personalInfoObj.insertCompany("ABC Ltd.");
 		
 		//Address
-		personalInfoObj.insertAddress("15-C, North Street");
+		personalInfoObj.insertAddress("34-C, North Bangla Street");
 		
 		//City
-		personalInfoObj.insertCity("California");
+		personalInfoObj.insertCity("Kolkata");
 		
 		//State
-		personalInfoObj.insertState("Alabama");
+		personalInfoObj.insertState("Kolkata");
 		
 		//Postal Code
-		personalInfoObj.insertPostalCode("61350");
+		personalInfoObj.insertPostalCode("78192");
 		
 		//Country
-		personalInfoObj.insertCountry("United States");
+		personalInfoObj.insertCountry("India");
 		
 		//Mobile No.
-		personalInfoObj.insertMobile("0122339900");
+		personalInfoObj.insertMobile("0198372933");
 		
 		//Clicking Register Button
 		personalInfoObj.clickRegister();
@@ -191,7 +191,7 @@ public class TestCases {
 		
 		
 	//1st User Sign In
-		authenticationObj.insertSignInEmail("bup100@xyz.com");
+		authenticationObj.insertSignInEmail("sqa123@abc.com");
 		authenticationObj.insertSignInPassword("12345");
 		authenticationObj.clickLogin();
 		
@@ -249,7 +249,7 @@ public class TestCases {
 		
 		
 	//2nd User Sign In
-		authenticationObj.insertSignInEmail("bup900@xyz.com");
+		authenticationObj.insertSignInEmail("sqa456@abc.com");
 		authenticationObj.insertSignInPassword("54321");
 		authenticationObj.clickLogin();
 		
