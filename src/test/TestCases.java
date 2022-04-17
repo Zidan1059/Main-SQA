@@ -99,13 +99,13 @@ public class TestCases {
 		personalInfoObj.insertCity("North Dhaka");
 		
 		//State
-		personalInfoObj.insertState("Dhaka");
+		personalInfoObj.insertState("Alaska");
 		
 		//Postal Code
 		personalInfoObj.insertPostalCode("43256");
 		
 		//Country
-		personalInfoObj.insertCountry("Bangladesh");
+		personalInfoObj.insertCountry("United States");
 		
 		//Mobile No.
 		personalInfoObj.insertMobile("01346735");
@@ -170,16 +170,16 @@ public class TestCases {
 		personalInfoObj.insertCity("Kolkata");
 		
 		//State
-		personalInfoObj.insertState("Kolkata");
+		personalInfoObj.insertState("Alaska");
 		
 		//Postal Code
 		personalInfoObj.insertPostalCode("78192");
 		
 		//Country
-		personalInfoObj.insertCountry("India");
+		personalInfoObj.insertCountry("United States");
 		
 		//Mobile No.
-		personalInfoObj.insertMobile("0198372933");
+		personalInfoObj.insertMobile("0178372433");
 		
 		//Clicking Register Button
 		personalInfoObj.clickRegister();
